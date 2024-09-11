@@ -61,8 +61,8 @@ import streamlit as st
 from own_agents import ResearchAgent, BlogAgent, LinkedinAgent, TwitterAgent, EmailAgent
 from utils import twitter_tweet
 from langchain_openai import ChatOpenAI
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 linkedin_status = None
 twitter_status = None
